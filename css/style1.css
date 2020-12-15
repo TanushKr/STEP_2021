@@ -87,6 +87,121 @@ scrollbar-width: none;  /* Firefox */
 .navbar .logo {
     height: 50px;
 }
+#uday h4 {
+    color: #333333;
+    font-size: 1.5rem;
+    font-style: normal ;
+    font-weight: 500;
+}
+
+#vday h4 {
+    color: #333333;
+    font-size: 1.5rem;
+    font-style: normal ;
+    font-weight: 500;
+}
+
+#wday h4 {
+    color: #333333;
+    font-size: 1.5rem;
+    font-style: normal ;
+    font-weight: 500;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+#subhead h2 {
+    font-size: 2rem;
+  }
+.subhead1{
+    margin-top: 5%;
+}
+
+.address{
+    color: #444444;
+    padding-left: 2.5rem;
+}
+
+#video .btn {
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 14px 42px;
+    margin-top: 42px;
+    margin-right: 12px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#video .btn-danger {
+    background: #f2545f;
+    border-color: transparent;
+}
+
+#video .btn {
+  border-radius: 100px;
+}
+
+
+#video .btn-danger:hover {
+    background: #222;
+  }
+
+#video .top-pad{
+    margin-top: 24px;
+}
+  
+.condate{
+    padding-top: 20px;
+    padding-bottom: 0px !important;
+}
+
+.container-mine{
+    width: 100%;
+}
+.feeshead h2{
+    font-size: 22px;
+}
+
+.feeshead h3{
+    font-size: 20px;
+}
+.paymenthead h4{
+    font-size: 22px;
+}
+
+.paymenthead h3{
+    font-size: 18px;
+    margin: 0px;
+}
+
+.addresstext h3{
+    margin: 0px;
+    font-size: 18px;
+}
+
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+    font-size: 18px;
+}
 
 @media only screen and (max-width: 600px) {
     .navbar .logo {
@@ -132,5 +247,28 @@ scrollbar-width: none;  /* Firefox */
 
     #contact{
         padding-top: 5rem;
+    }
+
+    .feeshead h2{
+        font-size: 13px;
+    }
+    .feeshead h3{
+        font-size: 12px;
+        margin: 0px;
+    }
+
+    .feeshead p{
+        font-size: 12px;
+        margin: 0px;
+    }
+
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+        border-top: 0px !important;
+        border-bottom: 0px !important;
+        font-size: 13px;
+    }
+
+    .condate{
+        font-size: 22px;
     }
 }
