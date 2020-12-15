@@ -202,7 +202,18 @@ scrollbar-width: none;  /* Firefox */
     border-bottom: 0px !important;
     font-size: 18px;
 }
+.tanush{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.vichu{
+    color: white;
+    font-size: 16px;
+}
 
+#video li{
+    font-size: 16px;
+}
 @media only screen and (max-width: 600px) {
     .navbar .logo {
         height: 30px;
