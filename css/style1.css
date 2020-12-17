@@ -107,6 +107,13 @@ scrollbar-width: none;  /* Firefox */
     font-style: normal ;
     font-weight: 500;
 }
+#xday h4 {
+    color: #333333;
+    font-size: 1.5rem;
+    font-style: normal ;
+    font-weight: 500;
+}
+
 
 /* Create three equal columns that floats next to each other */
 .column1 {
