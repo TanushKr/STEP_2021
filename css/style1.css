@@ -303,5 +303,12 @@ scrollbar-width: none;  /* Firefox */
 
     .logo{
         padding-left: 5px;
+        
+    }
+    .logo-1{
+        display: none !important;
+    }
+    .navbar-toggle{
+        margin-right: 5px;
     }
 }
