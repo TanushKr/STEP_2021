@@ -311,4 +311,11 @@ scrollbar-width: none;  /* Firefox */
     .navbar-toggle{
         margin-right: 5px;
     }
+    .addresstext1{
+        font-size: 2rem;
+    }
+
+    #contact_1 h3{
+        padding-bottom: 5px !important;
+    }
 }
