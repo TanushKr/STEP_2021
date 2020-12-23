@@ -211,6 +211,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 
+
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
     border-top: 0px !important;
     border-bottom: 0px !important;
@@ -224,11 +225,19 @@ scrollbar-width: none;  /* Firefox */
     color: white;
     font-size: 16px;
 }
-
+.logo-1{
+    padding-left: 0px;
+}
 #video li{
     font-size: 16px;
 }
+@media (min-width: 768px) and (max-width: 1300px) {
+    .collapse {
+        display: none !important;
+    }
+ }
 @media only screen and (max-width: 600px) {
+
     .navbar .logo {
         height: 30px;
     }    
